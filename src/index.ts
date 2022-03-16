@@ -3,7 +3,7 @@ import express from 'express';
 
 import { ApolloServer } from 'apollo-server-express';
 import { buildSchema } from 'type-graphql';
-import { UserResolver } from './modules/users/graphql/resolvers/user-resolver';
+import { UserResolver } from './aplication/graphql/resolvers/users/graphql/resolvers/user-resolver';
 import { connect } from './config/database';
 
 
